@@ -38,13 +38,13 @@ const Footer = () => {
       <Stack as="ul" mb="16px" direction="row" spacing={4}>
         <SocialLink
           name="LinkedIn"
-          href="https://www.linkedin.com/in/greg-ogun/"
+          href="https://www.linkedin.com/in/bedanta-gautom-2001/"
           target="_blank"
           icon={IconLinkedin}
         />
         <SocialLink
           name="Github"
-          href="https://github.com/gregogun"
+          href="https://github.com/BedantaGautom"
           target="_blank"
           icon={IconGithubAlt}
         />

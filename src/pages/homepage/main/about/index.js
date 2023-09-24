@@ -47,12 +47,9 @@ const About = forwardRef(({ ...props }, ref) => {
         </Box>
         <Stack spacing={12} p="8px" w={{ base: "100%", xl: "50%" }}>
           <Body mb="2em" align="justify">
-            Hello! I'm Bedanta Gautom, a junior front-end developer based in Bedford, UK.
-            I love to work on exciting projects that test what I've learnt,
-            whilst being exposed to the power and potential of the ever-evolving
-            technologies around us. I'm always looking for better, and more
-            importantly, ethical and accessible ways to solve the common
-            problems we are faced with day-to-day.
+            Hello! I'm Bedanta Gautom, a hardworking college student seeking internships and employment. Bringing forth a motivated attitude
+and a variety of powerful skills. Able to effectively self-manage during independent projects, as well as
+collaborate in a team setting. Committed to utilizing my skills to further the mission of the company.
           </Body>
           <Box>
             <Heading3>What I've been up to:</Heading3>

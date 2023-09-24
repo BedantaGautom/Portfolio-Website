@@ -23,7 +23,7 @@ const Contact = forwardRef(({ ...props }, ref) => {
         placeItems="center"
       >
         <TextLarge mb="32px" align="center">
-          I'm currently open to freelance and actively looking for full-time job
+          I'm actively looking for full-time job
           opportunties, so if you like what you've seen please don't hesitate to
           get in touch!
         </TextLarge>
@@ -40,7 +40,7 @@ const Contact = forwardRef(({ ...props }, ref) => {
 const ContactButton = ({ secondary }) => {
   const [icon, setIcon] = useState(false);
   return (
-    <PrimaryButton as="a" href="mailto:gregogun97@gmail.com" theme={secondary}>
+    <PrimaryButton as="a" href="mailto:bedantagautom2001@gmail.com" theme={secondary}>
       GET IN TOUCH
     </PrimaryButton>
   );

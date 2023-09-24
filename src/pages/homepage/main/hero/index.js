@@ -85,7 +85,7 @@ const HeroText = ({ handleClick, ...props }) => {
 
       <Heading1>Bedanta Gautom</Heading1>
       <Heading3 big={true} color={secondary}>
-        Aspiring Software / Front-End Developer
+      Aspiring Software / MERN Stack Developer
       </Heading3>
       <Body
         w={{ base: "90%", xl: "70%" }}
