@@ -56,7 +56,7 @@ collaborate in a team setting. Committed to utilizing my skills to further the m
             <Stack as="ul">
               <Bullet as="li">Building this!</Bullet>
               <Bullet as="li">Getting deeper into MERN Stack Devloppment</Bullet>
-              <Bullet as="li">Learning GraphQL</Bullet>
+              <Bullet as="li">Implementing Next.Js into this website!</Bullet>
               <Bullet as="li">
                 Live Coding on{" "}
                 {/* <Link

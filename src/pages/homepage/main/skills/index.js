@@ -11,6 +11,8 @@ import {
   IconResponsive,
   IconRest,
   IconExpress,
+  IconMachine,
+  IconAws,
 } from "../../../../assets/icons";
 import { Body, Heading2 } from "../../../../components/typography";
 import useColorSwitcher from "../../../../utils/hooks/useColorSwitcher";
@@ -92,7 +94,7 @@ const Frameworks = () => {
     <>
       <SkillBox icon={IconReact} name="React" />
       <SkillBox icon={IconNode} name="Nodejs" />
-      {/* <SkillBox icon={IconExpress} name="Expressjs" /> */}
+      <SkillBox icon={IconExpress} name="Expressjs" />
     </>
   );
 };
@@ -101,8 +103,10 @@ const Tools = () => {
   return (
     <>
       <SkillBox icon={IconRest} name="RESTful API" />
+      <SkillBox icon={IconMachine} name="Machine Learning" />
+      <SkillBox icon={IconAws} name="AWS" />
       <SkillBox icon={IconGit} name="Git" />
-      {/* <SkillBox icon={IconExpress} name="Expressjs" /> */}
+      
     </>
   );
 };

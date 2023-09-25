@@ -1,6 +1,7 @@
 export { MenuIcon } from "./custom";
 export { Logo } from "./custom";
 export {
+  IconMachine,
   IconReact,
   IconHtml,
   IconSass,
@@ -17,5 +18,7 @@ export {
   IconGit,
   IconWebpack,
   IconResponsive,
+  IconExpress,
   IconRest,
+  IconAws,
 } from "./imported";

@@ -98,8 +98,7 @@ const HeroText = ({ handleClick, ...props }) => {
         fontWeight="bold"
         align="justify"
       >
-        A curiousity-driven coder with a passion for designing and building
-        user-centric, inclusive experiences on the web.
+        A curiosity driven developer with a passion for designing and building user-centric, inclusive experiences on the web.
       </Body>
       <Box my={{ base: "32px" }}>
         <PrimaryButton
