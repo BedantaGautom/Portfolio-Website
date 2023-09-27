@@ -8,8 +8,8 @@ export const Heading1 = ({ children, ...props }) => {
     <Heading
       {...props}
       as="h1"
-      py={{ base: "0.25em", md: "0.75em" }}
-      fontSize={{ base: "3em", sm: "4em", md: "5em" , lg: "6em" }}
+      py={{ base: "0.75em", md: "0.75em" }}
+      fontSize={{ base: "3em", sm: "3.13em", md: "3.54em", lg:"3.5em"}}
       lineHeight={{ base: "1em", sm: 0 }}
     >
       {children}

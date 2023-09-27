@@ -5,6 +5,7 @@ import { Body, Heading1, Heading3 } from "../../../../components/typography";
 import Arrow from "../../../../assets/icons/custom/Arrow";
 import { CircleArray } from "../../../../assets/motion/CircleArray";
 import useColorSwitcher from "../../../../utils/hooks/useColorSwitcher";
+// import useWindowSize from "../../../../utils/hooks/useWindowSize";
 
 const IntroText = ({ color, children }) => {
   return (
@@ -79,10 +80,10 @@ const Hero = ({ handleClick, ...props }) => {
 
 const HeroText = ({ handleClick, ...props }) => {
   const { secondary } = useColorSwitcher();
+  // const {width} = useWindowSize();
   return (
     <Box as="section" {...props}>
       <IntroText>Hello, I'm</IntroText>
-
       <Heading1>Bedanta Gautom</Heading1>
       <Heading3 big={true} color={secondary}>
       Aspiring Software / MERN Stack Developer
@@ -103,14 +104,15 @@ const HeroText = ({ handleClick, ...props }) => {
       <Box my={{ base: "32px" }}>
         <PrimaryButton
           as="a"
-          href="mailto:bedantagautom2001@gmail.com"
+          href="https://drive.google.com/file/d/1faaH0jSgVHg2niqs4UN2Da0gNDr-a_GT/view?usp=sharing"
+          target="_blank"
           theme={secondary}
         >
-          GET IN TOUCH
+          DOWNLOAD CV
         </PrimaryButton>
       </Box>
     </Box>
-  );
+    )
 };
 
 const FloatingArrow = ({ scrollPos }) => {
