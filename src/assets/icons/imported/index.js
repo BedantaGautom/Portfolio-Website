@@ -17,4 +17,5 @@ export { default as IconResponsive } from "./IconResponsive";
 export { default as IconExpress } from "./IconExpress";
 export { default as IconMachine } from "./IconMachine";
 export { default as IconAws } from "./IconAws";
+export { default as IconAzure } from "./IconAzure";
 export { default as IconRest } from "./IconRest";

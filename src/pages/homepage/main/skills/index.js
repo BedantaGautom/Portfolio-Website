@@ -13,6 +13,7 @@ import {
   IconExpress,
   IconMachine,
   IconAws,
+  IconAzure,
 } from "../../../../assets/icons";
 import { Body, Heading2 } from "../../../../components/typography";
 import useColorSwitcher from "../../../../utils/hooks/useColorSwitcher";
@@ -105,6 +106,7 @@ const Tools = () => {
       <SkillBox icon={IconRest} name="RESTful API" />
       <SkillBox icon={IconMachine} name="Machine Learning" />
       <SkillBox icon={IconAws} name="AWS" />
+      <SkillBox icon={IconAzure} name="Azure" />
       <SkillBox icon={IconGit} name="Git" />
       
     </>

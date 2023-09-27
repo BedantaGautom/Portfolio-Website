@@ -21,4 +21,5 @@ export {
   IconExpress,
   IconRest,
   IconAws,
+  IconAzure,
 } from "./imported";
