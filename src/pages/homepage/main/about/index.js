@@ -57,8 +57,8 @@ collaborate in a team setting. Committed to utilizing my skills to further the m
               <Bullet as="li">Building this!</Bullet>
               <Bullet as="li">Getting deeper into MERN Stack Devloppment</Bullet>
               <Bullet as="li">Implementing Next.Js into this website!</Bullet>
-              <Bullet as="li">
-                Live Coding on{" "}
+              <Bullet as="li">Automate the Portfolio section with Github API.
+                {/* Live Coding on{" "} */}
                 {/* <Link
                   color={secondary}
                   textDecor="underline"
@@ -67,16 +67,6 @@ collaborate in a team setting. Committed to utilizing my skills to further the m
                   Twitch
                 </Link> */}
               </Bullet>
-              {/* <Bullet as="li">
-                Starting the{" "}
-                <Link
-                  color={secondary}
-                  textDecor="underline"
-                  href="https://chingu.io/"
-                >
-                  Chingu Voyage 28
-                </Link>
-              </Bullet> */}
             </Stack>
           </Box>
         </Stack>

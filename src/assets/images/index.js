@@ -2,7 +2,8 @@ import { Image, useColorMode } from "@chakra-ui/react";
 import React from "react";
 import profile from "./me.jpg";
 import portfolio from "./portfolio";
-import gitjobs from "./gitjobs";
+import fashionify from "./fashionify";
+import ftpserver from "./ftpserver";
 
 export const ImageProfile = () => {
   return (
@@ -19,7 +20,7 @@ export const ImageProfile = () => {
       }}
       src={profile}
       fallbackSrc="https://via.placeholder.com/500"
-      alt="Greg Ogun"
+      alt="Bedanta Gautom"
     />
   );
 };
@@ -45,7 +46,7 @@ export const PortfolioImg = () => {
   );
 };
 
-export const GitjobsImg = () => {
+export const FashionifyImg = () => {
   const { colorMode } = useColorMode();
   return (
     <Image
@@ -54,14 +55,35 @@ export const GitjobsImg = () => {
       objectFit="cover"
       boxSize="100%"
       boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
-      src={gitjobs.light[2]}
+      src={fashionify.light[2]}
       srcSet={`${
-        colorMode === "light" ? gitjobs.light[0] : gitjobs.dark[0]
+        colorMode === "light" ? fashionify.light[0] : fashionify.dark[0]
       } 400w, ${
-        colorMode === "light" ? gitjobs.light[1] : gitjobs.dark[1]
+        colorMode === "light" ? fashionify.light[1] : fashionify.dark[1]
       } 800w`}
       fallbackSrc="https://via.placeholder.com/500"
-      alt="Gitjobs project"
+      alt="Fashionify project"
+    />
+  );
+};
+
+export const FtpServerImg = () => {
+  const { colorMode } = useColorMode();
+  return (
+    <Image
+      rounded="8px"
+      mx={{ base: "auto", xxl: 0 }}
+      objectFit="cover"
+      boxSize="100%"
+      boxShadow={{ base: "0 0 0 2px", md: "0 0 0 4px" }}
+      src={ftpserver.light[2]}
+      srcSet={`${
+        colorMode === "light" ? ftpserver.light[0] : ftpserver.dark[0]
+      } 400w, ${
+        colorMode === "light" ? ftpserver.light[1] : ftpserver.dark[1]
+      } 800w`}
+      fallbackSrc="https://via.placeholder.com/500"
+      alt="Ftp server project"
     />
   );
 };

@@ -48,7 +48,7 @@ const Projects = forwardRef(({ ...props }, ref) => {
           direction={{ base: "column", xxl: "row" }}
           mb="128px"
         >
-          <ProjectCard media={project.media} />
+           <ProjectCard media={project.media} />
           <ProjectInfoCard length={project.length} {...project} />
         </Stack>
       ))}

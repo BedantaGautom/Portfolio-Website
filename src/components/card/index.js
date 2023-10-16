@@ -1,8 +1,6 @@
 import React from "react";
 import {
   Box,
-  Container,
-  Divider,
   Flex,
   Icon,
   Stack,
@@ -12,8 +10,6 @@ import {
 import useColorSwitcher from "../../utils/hooks/useColorSwitcher";
 import { PrimaryButton, SecondaryButton } from "../button";
 import { Body, Bullet, Heading3 } from "../typography";
-import { BiRightArrow } from "react-icons/bi";
-import SpherePulse from "../../assets/motion/SpherePulse";
 
 export const SkillCard = ({ icon, name = "Insert Name", ...props }) => {
   const { colorMode } = useColorMode();
@@ -95,12 +91,12 @@ export const ProjectInfoCard = ({
           direction={{ base: "column", md: "row" }}
         >
           {live !== null && (
-            <PrimaryButton w="100%" as="a" href={live}>
+            <PrimaryButton w="100%" as="a" href={live} target="_blank">
               LIVE SITE
             </PrimaryButton>
           )}
           {repo !== null && (
-            <SecondaryButton w="100%" as="a" href={repo}>
+            <SecondaryButton w="100%" as="a" href={repo} target="_blank">
               GITHUB REPO
             </SecondaryButton>
           )}
