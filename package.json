@@ -7,7 +7,7 @@
     "preinstall": "npx npm-force-resolutions",
     "clean": "rm dist/bundle.js",
     "start": "parcel",
-    "build": "parcel build --dist-dir public",
+    "build": "parcel build --dist-dir build",
     "build-prod": "parcel build src/index.html",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
