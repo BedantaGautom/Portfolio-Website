@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Your GitHub Personal Access Token
-const accessToken = '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';
+const accessToken = 'my_access-token';
 
 // Endpoint to fetch starred repositories
 app.get('/api/starred-repositories', async (req, res) => {
