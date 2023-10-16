@@ -1,8 +1,7 @@
-import { createIcon, defaultProps } from "@chakra-ui/react";
+import { createIcon } from "@chakra-ui/react";
 import React from "react";
 
 const IconWebpack = createIcon({
-  defaultProps,
   displayName: "IconWebpack",
   viewBox: "0 0 32 32",
   path: (

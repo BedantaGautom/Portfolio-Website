@@ -1,4 +1,4 @@
-import { createIcon, defaultProps } from "@chakra-ui/react";
+import { createIcon } from "@chakra-ui/react";
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -39,7 +39,6 @@ const pathVariants = {
 };
 
 const IconPattern = createIcon({
-  defaultProps,
   displayName: "IconPattern",
   viewBox: "0 0 252.4 252.4",
   path: (

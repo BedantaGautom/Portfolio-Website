@@ -1,8 +1,7 @@
-import { createIcon, defaultProps } from "@chakra-ui/react";
+import { createIcon } from "@chakra-ui/react";
 import React from "react";
 
 const IconGit = createIcon({
-  defaultProps,
   displayName: "IconGit",
   viewBox: "0 0 256 256",
   path: (

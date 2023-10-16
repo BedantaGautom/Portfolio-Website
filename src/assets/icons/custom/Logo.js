@@ -1,4 +1,4 @@
-import { createIcon, defaultProps, Icon } from "@chakra-ui/react";
+import { createIcon, Icon } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import React from "react";
 import useColorSwitcher from "../../../utils/hooks/useColorSwitcher";
@@ -36,7 +36,6 @@ const pathVariants = {
 };
 
 const LogoBase = createIcon({
-  defaultProps,
   displayName: "LogoBase",
   viewBox: "0 0 144 191",
   path: (

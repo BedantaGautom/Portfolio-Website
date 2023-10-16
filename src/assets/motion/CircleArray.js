@@ -1,4 +1,4 @@
-import { createIcon, defaultProps, Icon } from "@chakra-ui/react";
+import { createIcon, Icon } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import React from "react";
 
@@ -33,7 +33,6 @@ const child = {
 };
 
 export const CircleArray = createIcon({
-  defaultProps,
   displayName: "CircleArray",
   viewBox: "0 0 100 100",
   path: (
