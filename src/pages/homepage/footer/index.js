@@ -50,7 +50,7 @@ const Footer = () => {
         />
         <SocialLink
           name="Website"
-          href="https://www.youtube.com/channel/UCQDUHOvgodaEqjHm9Ihn87w"
+          href="https://bedantagautom-portfolio.netlify.app/"
           target="_blank"
           icon={IconGlobe}
         />
