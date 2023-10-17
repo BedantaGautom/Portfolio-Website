@@ -4,7 +4,7 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions --legacy-peer-deps",
+    "preinstall": "npm i --legacy-peer-deps",
     "clean": "rm dist/bundle.js",
     "start": "parcel",
     "build": "parcel build --dist-dir build",
