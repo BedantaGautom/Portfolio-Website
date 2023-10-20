@@ -41,6 +41,7 @@
     "node-forge": "0.10.0"
   },
   "dependencies": {
+    "@babel/traverse": "^7.23.2",
     "@chakra-ui/react": "^2.8.1",
     "@chakra-ui/skip-nav": "^2.1.0",
     "@chakra-ui/theme-tools": "^2.1.1",
